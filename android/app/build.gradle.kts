@@ -30,6 +30,7 @@ android {
 
     buildTypes {
         release {
+            // Use debug signing for testing the release build
             signingConfig = signingConfigs.getByName("debug")
         }
     }
